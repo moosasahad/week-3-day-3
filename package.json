@@ -1,0 +1,15 @@
+{
+  "name": "week-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start:react\" \"npm run start:server\"",
+    "start:react": "react-scripts start",
+    "start:server": "json-server --watch db.json --port 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
